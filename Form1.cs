@@ -27,6 +27,8 @@ namespace calculator
         {
             sayi1 = double.Parse(textBox1.Text);
             sayi2 = double.Parse(textBox2.Text);
+
+
             double sonuc = sayi1 - sayi2;
             lblsonuc.Text = sonuc.ToString();
         }
